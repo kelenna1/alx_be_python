@@ -2,7 +2,7 @@ income = int(input("Enter your monthly income:"))
 expenses = int(input("Enter your total monthly expenses:"))
  
 savings = income - expenses
-annual_savings = savings * 12 + (savings * 12 * 0.05)
+annual_savings = int(savings * 12 + (savings * 12 * 0.05))
 if expenses >= income:
     print("You made no savings this month")
 else:

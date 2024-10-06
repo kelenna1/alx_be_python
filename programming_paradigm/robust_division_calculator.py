@@ -1,7 +1,9 @@
 def safe_divide(numerator, denominator):
-    numerator = float(numerator)
-    denominator = float(denominator)
+    
     try:
+        numerator = float(numerator)
+        denominator = float(denominator)
+
         output = numerator / denominator
         return f"The result of the division is {output}"
     except ZeroDivisionError as e:

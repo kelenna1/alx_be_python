@@ -1,6 +1,6 @@
 def safe_divide(numerator, denominator):
-    numerator = int(input("Enter your numerator"))
-    denominator = int(input("Enter your denominator"))
+    numerator = float(numerator)
+    denominator = float(denominator)
     try:
         output = numerator / denominator
         return f"The result of the division is {output}"

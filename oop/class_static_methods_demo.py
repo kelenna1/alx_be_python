@@ -1,4 +1,4 @@
-class Calculation:
+class Calculator:
     calculation_type = "Arithmetic Operations"
     
     @staticmethod
